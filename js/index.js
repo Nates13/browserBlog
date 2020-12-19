@@ -6,8 +6,8 @@ import aItems from "../items/index.js";
 
 class Page {
     constructor(){
-        this.sName = "Rich Hildred";
-        this.sUrlToEmailer = "https://dry-bayou-18746.herokuapp.com/send/";
+        this.sName = "Nates Lavrisa";
+        this.sUrlToEmailer = "https://git.heroku.com/fierce-falls-16510.git";
         const sBase = document.location.pathname;
         if(sBase[sBase.length - 1] == "/"){
             this.sBase = sBase.substr(0, sBase.length -1);
